@@ -1,6 +1,6 @@
-# sapper-template
+# sapper-tailwindcss-template
 
-The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
+Based on the default [Sapper](https://github.com/sveltejs/sapper) [template](https://github.com/sveltejs/sapper-template).
 
 
 ## Getting started
@@ -8,19 +8,16 @@ The default [Sapper](https://github.com/sveltejs/sapper) template, available for
 
 ### Using `degit`
 
-[`degit`](https://github.com/Rich-Harris/degit) is a scaffolding tool that lets you create a directory from a branch in a repository. Use either the `rollup` or `webpack` branch in `sapper-template`:
+[`degit`](https://github.com/Rich-Harris/degit) is a scaffolding tool that lets you create a directory from a branch in a repository:
 
 ```bash
-# for Rollup
-npx degit "sveltejs/sapper-template#rollup" my-app
-# for webpack
-npx degit "sveltejs/sapper-template#webpack" my-app
+npx degit "mdauner/sapper-tailwindcss-template" my-app
 ```
 
 
 ### Using GitHub templates
 
-Alternatively, you can use GitHub's template feature with the [sapper-template-rollup](https://github.com/sveltejs/sapper-template-rollup) or [sapper-template-webpack](https://github.com/sveltejs/sapper-template-webpack) repositories.
+Alternatively, you can use GitHub's template feature.
 
 
 ### Running the project
@@ -78,7 +75,7 @@ import { files } from '@sapper/service-worker';
 
 ## Bundler config
 
-Sapper uses Rollup or webpack to provide code-splitting and dynamic imports, as well as compiling your Svelte components. With webpack, it also provides hot module reloading. As long as you don't do anything daft, you can edit the configuration files to add whatever plugins you'd like.
+Sapper uses Rollup to provide code-splitting and dynamic imports, as well as compiling your Svelte components. As long as you don't do anything daft, you can edit the configuration files to add whatever plugins you'd like.
 
 
 ## Production mode and deployment
@@ -99,7 +96,7 @@ If your app can't be exported to a static site, you can use the [now-sapper](htt
 
 When using Svelte components installed from npm, such as [@sveltejs/svelte-virtual-list](https://github.com/sveltejs/svelte-virtual-list), Svelte needs the original component source (rather than any precompiled JavaScript that ships with the component). This allows the component to be rendered server-side, and also keeps your client-side app smaller.
 
-Because of that, it's essential that the bundler doesn't treat the package as an *external dependency*. You can either modify the `external` option under `server` in [rollup.config.js](rollup.config.js) or the `externals` option in [webpack.config.js](webpack.config.js), or simply install the package to `devDependencies` rather than `dependencies`, which will cause it to get bundled (and therefore compiled) with your app:
+Because of that, it's essential that the bundler doesn't treat the package as an *external dependency*. You can either modify the `external` option under `server` in [rollup.config.js](rollup.config.js) or simply install the package to `devDependencies` rather than `dependencies`, which will cause it to get bundled (and therefore compiled) with your app:
 
 ```bash
 npm install -D @sveltejs/svelte-virtual-list
