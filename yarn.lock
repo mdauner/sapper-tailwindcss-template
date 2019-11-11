@@ -667,10 +667,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-0.5.0.tgz#b21510597fd601e5d7c95008b76bf0d254ebfd31"
   integrity sha512-oZLYFEAzUKyi3SKnXvj32ZCEGH6RDnao7COuCVhDydMS9NrCSVXhM79VaKyP5+Zc33m0QXEd2DN3UkU7OsHcfw==
 
-"@polka/url@^1.0.0-next.3":
-  version "1.0.0-next.3"
-  resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.3.tgz#7a56e747ec94622e8513b406c53cc1729799de09"
-  integrity sha512-Uom7l6OeP6vcf85lMImelYu5WKVWjXyhkpi9WsRdRzlJFJFPVhjBtBCktgDUj7dk1N5FURUdegSZ5XOjxf8JZg==
+"@polka/url@^1.0.0-next.7":
+  version "1.0.0-next.7"
+  resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.7.tgz#e0f307ab768b799aa8668343ce0df6601f29b9b1"
+  integrity sha512-DOQhemlNfLQ7FZ6gdThARbeIjfhdM5fIqoPtgOJkO27r8A4njwiQSqx+qbReuIHEtx3fJyjSn2spMnsAHc0rFQ==
 
 "@types/estree@*", "@types/estree@0.0.39":
   version "0.0.39"
@@ -2063,11 +2063,11 @@ pify@^3.0.0:
   integrity sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY=
 
 polka@next:
-  version "1.0.0-next.6"
-  resolved "https://registry.yarnpkg.com/polka/-/polka-1.0.0-next.6.tgz#3eaf9f73950621d483ebe20b5ea6b17b74943147"
-  integrity sha512-e3vZm2cMmPPrgn+0J5DO0rrSTfsCHGyh+YS6jjrqYP8BHJkPq8nCVSDxHkaiEN4f0c2dtR6FB+snDmLE/sRz7A==
+  version "1.0.0-next.7"
+  resolved "https://registry.yarnpkg.com/polka/-/polka-1.0.0-next.7.tgz#6ee6ccb2bed7bd87bc02c5513dcd507b12a36504"
+  integrity sha512-vdrz2YBgtjFtqan5Wj7eB79sYvS1kFip3K0wWHTbIgLcWr8JBk4sGqlgUvwX2NwrAwvv3X3JVHQH9gQGzkSkyA==
   dependencies:
-    "@polka/url" "^1.0.0-next.3"
+    "@polka/url" "^1.0.0-next.7"
     trouter "^3.1.0"
 
 postcss-calc@^7.0.1:
