@@ -3317,10 +3317,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte-preprocess@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-3.4.0.tgz#bd21f2a26113b53a7d1ef5f1939a2d5b2e74a4af"
-  integrity sha512-XujaaZP777ivvlE+Oy8CnDySJRSWtWO2Okqa+gt93Xq92SLR0KwE9hLDPe0UzTwWEuMfIUi7xqAj9hAoub01tQ==
+svelte-preprocess@^3.7.4:
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-3.7.4.tgz#d10cf9b7c96c2b123da90438a3e9814737347e8d"
+  integrity sha512-0nW7TIjbav2nmw1Y7EAFRRkhNVwJ3zKN85/eITLQMkPuhqHO2i2IK0O3y4YXsSXlc0VGI5jQDVXkcXpga6zzew==
   dependencies:
     "@types/pug" "^2.0.4"
     "@types/sass" "^1.16.0"
