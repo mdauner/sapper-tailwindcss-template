@@ -2982,6 +2982,11 @@ rgba-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/rgba-regex/-/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
   integrity sha1-QzdOLiyglosO8VI0YLfXMP8i7rM=
 
+rollup-dependency-tree@0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/rollup-dependency-tree/-/rollup-dependency-tree-0.0.10.tgz#03fea43f41c88c6284edb86f4d68708ec173adbc"
+  integrity sha512-xgnV7DomkPLkQDFzfa5b3JW3kLQrrY8QiI4qbz/4uBk8NPj5sTjI12xQbEIzzvrLvhUSk/3WBscSVYHkgDxmvA==
+
 rollup-plugin-babel@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/rollup-plugin-babel/-/rollup-plugin-babel-4.4.0.tgz#d15bd259466a9d1accbdb2fe2fff17c52d030acb"
@@ -3061,14 +3066,16 @@ safe-identifier@^0.3.1:
   resolved "https://registry.yarnpkg.com/safe-identifier/-/safe-identifier-0.3.1.tgz#466b956ef8558b10bbe15b87fedf470ab283cd39"
   integrity sha512-+vr9lVsmciuoP1fz8w30qDcohwH2S/tb5dPGQ8zHmG9jQf7YHU2fIKGxxcDpeY38J0Dep+DdPMz8FszVZT0Mbw==
 
-sapper@^0.27.10:
-  version "0.27.10"
-  resolved "https://registry.yarnpkg.com/sapper/-/sapper-0.27.10.tgz#72a9a2a58756a6ee1834f7c9e2600b815f4cf596"
-  integrity sha512-hbl+uE7RClCdVst2qyaPuKjZOQx/1iSMiiBPFHU4IiAucuAkZM7hIwTfYQXLOltuAYoFfAEQVV3L9PJ81f7Oig==
+sapper@^0.28.3:
+  version "0.28.3"
+  resolved "https://registry.yarnpkg.com/sapper/-/sapper-0.28.3.tgz#23370f4f805386f573e7b84e601aebe46b03ad59"
+  integrity sha512-4hQv6ApLWbYy8OPy3f9Pdxsu8eHivIFh+VAb5UZMY811aTPb20SudxZAMpdJaNYwgR3rHqRDCRllfO134XT6Nw==
   dependencies:
     html-minifier "^4.0.0"
     http-link-header "^1.0.2"
+    rollup-dependency-tree "0.0.10"
     shimport "^1.0.1"
+    source-map "^0.6.1"
     sourcemap-codec "^1.4.6"
     string-hash "^1.1.3"
 
